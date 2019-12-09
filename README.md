@@ -111,8 +111,8 @@ This guide shows how to add new app flavors in existing flutter apps.
 16. Select <flavor> scheme near the 'Run App' button
 	* click 'Edit scheme'
 	* Open each category (except 'build') and set the config to applicable flavor configuration, for example *`<flavor>`*:
-    	* Run -> Debug-<flavor>
-    	* Test -> Debug-<flavor>
-    	* Profile -> Debug-<flavor>
-    	* Analyze -> Debug-<flavor>
-    	* Archive -> Release-<flavor>
+    	* Run -> `Debug-<flavor>`
+    	* Test -> `Debug-<flavor>`
+    	* Profile -> `Debug-<flavor>`
+    	* Analyze -> `Debug-<flavor>`
+    	* Archive -> `Release-<flavor>`
