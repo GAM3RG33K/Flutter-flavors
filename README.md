@@ -85,10 +85,10 @@ This guide shows how to add new app flavors in existing flutter apps.
 	* rename new configuration to `Debug-<flavor>`
 	* repeat above steps for "Release" config as well
 	
-10. Open Assets.xcassets folder in finder (ios/Runner/Assets.xcassets)
-	* create a copy of "AppIcon.appiconset" folder and rename the copy to "AppIcon-<flavor>.appiconset"
+10. *(Optional)*  [If you want separate icons per flavor] Open Assets.xcassets folder in finder (ios/Runner/Assets.xcassets)
+	* create a copy of "AppIcon.appiconset" folder and rename the copy to "AppIcon-\<flavor\>.appiconset"
 	
-11. Go to Project Navigator -> click on Runner(Target) -> Search "APPICON"
+11. *(Optional)* Go to Project Navigator -> click on Runner(Target) -> Search "APPICON"
 	* select `Debug-<flavor>` -> change value `AppIcon` to `AppIcon-<flavor>`
 	* do the same for `Release-<flavor>`
 	
